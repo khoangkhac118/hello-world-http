@@ -7,26 +7,26 @@ instanceName: Greet
 # once a match is found, the processing stops
 calls:
 
-# First, we try to match a call to Joe
+# First, we try to match a call to john
 - url: /SayHello
   method: post
   request:
     body:
-      Name: "Joe"
+      Name: "john"
   response:
     body:
-      Message: Hello Joe!
+      Message: Hello john!
     status: OK
 
-# Then, we try to match a call to Kelly
+# Then, we try to match a call to truong
 - url: /SayHello
   method: post
   request:
     body:
-      Name: Kelly
+      Name: truong
   response:
     body:
-      Message: Hello Kelly!
+      Message: Hello truong!
     status: OK
 
 # And if no match, fall back to NotFound
