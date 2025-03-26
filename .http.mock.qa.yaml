@@ -12,7 +12,7 @@ calls:
   method: post
   request:
     body:
-      Name: "john"
+      Name: truong Nguyen 
   response:
     body:
       Message: Hello john!
@@ -23,7 +23,7 @@ calls:
   method: post
   request:
     body:
-      Name: truong
+      Name: truong nguyen
   response:
     body:
       Message: Hello truong!
